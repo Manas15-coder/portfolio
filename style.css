@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    top:0;
+    position: sticky;
+    z-index: 2;
+}
+.nav-link a:hover{
+    background-color: #FF6E31;
+}
+#header{
+    background-image: url("./images/CDL_Linkedin@2x.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:400px;
+}
+
+.name{
+    margin-top:50px;
+    font-size:40px;
+    color:#0A2647;
+    
+}
+.heading{
+    font-size:30px;
+    color:#FF6E31;
+
+}
+.photo{
+    height:250px;
+    border:solid #0A2647;
+    border-radius:50%;
+}
+.skills img{
+    height:100px;
+    padding:10px;
+}
+.certification img{
+    height:500px;
+}
+.project-img{
+    height:400px;
+}
+.project-img:hover{
+    transform: rotateX(45deg);
+}
+#social{
+    background-color:#EEEEEE;
+    width:100%;
+}
+#social i{
+    padding:50px;
+    height:50px
+}
+#social i:hover{
+    color:#FF6E31;
+}
